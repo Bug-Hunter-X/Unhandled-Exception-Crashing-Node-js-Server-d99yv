@@ -1,0 +1,3 @@
+# Unhandled Exception Crashing Node.js Server
+
+This example demonstrates a common issue in Node.js where an unhandled exception can crash the server.  The `server.js` file contains a server that throws an error when accessing the `/error` route. This leads to a server crash without logging or graceful handling. The solution shows how to use `try...catch` to handle the error, preventing server crashes.  The solution also includes better logging of errors for debugging.
